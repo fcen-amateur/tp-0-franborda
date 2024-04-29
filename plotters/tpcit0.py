@@ -11,7 +11,7 @@ def plot():
             y="gdpPercap",
             color="country",
         )
-        .add(so.Line())
+        .add(so.Line(linewidth = 2))
         .label(
             title="PIB de los siguientes paises a lo largo del tiempo",
             x="Año",
